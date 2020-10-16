@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    align-items: center;
+    background-color: burlywood;
+    width: 100%;
+}
+
+.header a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header .logo {
+    max-height: 4.3rem;
+
+}
+
+.header .title-group {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+}
+
+.header .title-group .input {
+    width: 20rem;
+    outline: 0;
+}
+
+.header .material-icons {
+    padding-left: 0.2rem;
+}

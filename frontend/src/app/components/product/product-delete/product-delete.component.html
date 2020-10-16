@@ -1,0 +1,31 @@
+<mat-card>
+    <mat-card-title>Excluir Livro</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="ISBN" 
+                [value]="product.isbn" name="isbn" disabled>
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Título"
+                [value]="product.title" name="title" disabled>
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Autor"
+                [value]="product.author" name="author" disabled>
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Preço R$"
+                [value]="product.price" name="price" disabled>
+        </mat-form-field>
+    </form>
+    <button class="buttonAdd" mat-raised-button (click)="deleteProduct()">
+        Excluir
+    </button>
+    <button mat-raised-button (click)="cancelProduct()">
+        Cancelar
+    </button>
+</mat-card>
+
